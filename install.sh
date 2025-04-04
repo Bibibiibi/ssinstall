@@ -3,7 +3,7 @@
 set -e
 
 BIN_NAME="ssmanager"
-BIN_URL="https://raw.githubusercontent.com/Bibibiibi/ssinstall/main/ssmanager"
+BIN_URL="https://github.com/Bibibiibi/ssinstall/releases/download/1/ssmanager"
 
 echo "downloading ssmanager..."
 curl -L -o $BIN_NAME $BIN_URL
