@@ -3,12 +3,12 @@
 set -e
 
 BIN_NAME="ssmanager"
-BIN_URL="https://github.com/yourname/yourrepo/raw/main/ssmanager-linux"
+BIN_URL="https://github.com/Bibibiibi/ssinstall/blob/main/ssmanager"
 
-echo "📥 正在下载 ssmanager..."
+echo "dowload ssmanager..."
 curl -L -o $BIN_NAME $BIN_URL
 
 chmod +x $BIN_NAME
 
-echo "✅ 已下载并授权执行，正在启动..."
+echo "runing..."
 ./$BIN_NAME
