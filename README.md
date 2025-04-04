@@ -1,1 +1,1 @@
-bash <(curl -sSL https://raw.githubusercontent.com/yourname/yourrepo/main/install.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/Bibibiibi/ssinstall/main/install.sh)
